@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.con {
+  max-width: 2600px;
+  margin: 0 auto;
+}
+.container {
+  border: 2px solid red;
+}
+.header {
+  width: 100%;
+  height: 44px;
+  border: 1px solid rgb(0, 255, 17);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.header-menu {
+  width: 996px;
+  height: 44px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-size {
+  width: 19px;
+  height: 19px;
+}
+.icon-shopping {
+  width: 30px;
+  height: 30px;
+}
+.border {
+  border: 1px solid rgb(255, 225, 0);
+}
+.bg-pic-center-cover {
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
+.bg-pic-end-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu-icon1 {
+  background-image: url(./images/logo-apple1.png);
+}
+.menu-icon2 {
+  background-image: url(./images/logo-search.png);
+}
+.menu-icon3 {
+  background-image: url(./images/Button\ -\ Shopping\ Bag.png);
+}
+.menu-txt-style {
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+.title-content {
+  width: 100%;
+  height: 52px;
+  padding: 16px, 0px;
+  text-wrap: wrap;
+  border: 1px solid rgb(68, 0, 255);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.gradient-bg {
+  width: 100%;
+  height: 75px;
+  background-image: url(./images/gradiantBackground.png);
+}
+.gradient-txt {
+  background-color: transparent;
+  background-image: text;
+  background-image: linear-gradient();
+}
